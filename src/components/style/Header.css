@@ -1,0 +1,20 @@
+.header-main{
+    height: 80px;
+    background-color: #ffffff;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header-search-bar{
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    height: 50%;
+    width: 30%;
+}
+.header-logo-image{
+    color: black;
+    height: 70px;
+}
+.header-icon{
+    font-size: 25px;
+}
