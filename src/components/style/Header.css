@@ -1,20 +1,45 @@
 .header-main{
-    height: 80px;
+    height: 96px;
     background-color: #ffffff;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
+    width: 90%;
+    margin: auto;
 }
 .header-search-bar{
     background-color: #f0f0f0;
     border-radius: 50px;
-    height: 50%;
-    width: 30%;
+    height: 48px;
+    width: 577px;
+    padding-left: 15px;
+    
 }
 .header-logo-image{
     color: black;
-    height: 70px;
+    height: 40px;
+    width: 160px;
+}
+.header-icon-div{
+    width: 76px;
+    height: 24px;
 }
 .header-icon{
-    font-size: 25px;
+    height: 24px;
+    width: 24px;
+    margin: 0 7px;
+}
+.header-product-list {
+    outline: none;
+    padding: 0px 10px 0px 20px;
+}
+.header-menu-bar{
+    width: max-content;
+    height: 22px;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.header-menu-bar li{ 
+    margin: 0 8px;
 }
