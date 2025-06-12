@@ -83,3 +83,26 @@
     width: 50px;
     transition: width 4s;
  }
+
+ 
+@media (max-width:390px) {
+    .slider-image-div{
+        height: 150px;
+    }
+    .slider-dot-div{
+        bottom: 5px;
+        gap: 4px;
+    }
+    .slider-outer-div{
+        width: 5px;
+        height: 3px;
+        margin: 0px;
+    }
+    .slider-dot-active{
+        width: 15px;
+    }
+    .slider-inner-dot-active{
+    width: 20px;
+    
+ }
+}
